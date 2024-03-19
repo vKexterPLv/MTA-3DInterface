@@ -1,0 +1,10 @@
+<meta>
+	<script src="utils.lua" type="shared" />
+	<script src="c.lua" type="client" />
+	
+	<export function="create3DInterface" 					type="client" />
+	<export function="attach3DInterface" 					type="client" />
+	<export function="change3DInterfacePosition" 			type="client" />
+  <export function="detach3DInterface" type="client" />
+  <export function="destroy3DInterface" type="client" />
+</meta>

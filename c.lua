@@ -30,7 +30,7 @@ function create3DInterface(x,y,z,w,h,scaler,dist,lx,ly,lz)
 	dist = dist or 50
 	tmprt = dxCreateRenderTarget(w*scaler,h*scaler,true)
 	assert(tmprt,"[dxCreate3DInterface] Can't create a render target!")
-	tds[id] = {x=x,y=y,z=z+(h/100),x1=x,y1=y,z1=z-(h/100),rt=tmprt,wfordraw=(w+h)/100,w=w,h=h,id=id,dist=dist,lx=(lx or _),ly=(ly or _),lz=(lz or _)}
+	tds[id] = {x=x,y=y,z=z+(h/200),x1=x,y1=y,z1=z-(h/200),rt=tmprt,wfordraw=w/100,w=w,h=h,id=id,dist=dist,lx=(lx or _),ly=(ly or _),lz=(lz or _)}
 	tmprt = false
 	id = id + 1
 	

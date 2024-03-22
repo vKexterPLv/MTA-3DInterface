@@ -49,7 +49,7 @@ dxSetBlendMode("modulate_add")
 
 dxDrawRectangle(0,0,w,h,tocolor(36,36,36,255)
 
-dxDrawText("Hello World!",0,0,w,h,white,2*(scl/2),"default-bold","center","center")
+dxDrawText("Hejka!",0,0,w,h,white,2*(scl/2),"default-bold","center","center")
 
 
 dxSetBlendMode("blend")

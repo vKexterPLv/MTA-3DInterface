@@ -56,4 +56,4 @@ dxSetBlendMode("blend")
 dxSetRenderTarget()
 end
 ```
-![alt text](https://cdn.discordapp.com/attachments/1122096051080401018/1220122193854464081/image-38.png?ex=660dca57&is=65fb5557&hm=db40859f257547ec779735d090d06fdb54f230c3cf7bb439ed41f3dd9a64cdf3&)
+![alt text](https://cdn.discordapp.com/attachments/1122096051080401018/1220122193854464081/image-38.png?ex=662a2297&is=6628d117&hm=7baa1c8fee8c67d49430c4c7a67ff8bd108ba1f10b5b9865c0e1bc1c0082ef97&)
